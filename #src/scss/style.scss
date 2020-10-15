@@ -1,0 +1,27 @@
+@import "nullstyle.scss";
+
+
+$Mons: 'Montserrat', Arial, Helvetica, sans-serif;
+$Merri: 'Merriweather', Arial, Helvetica, sans-serif;
+$Rale: 'Raleway', Arial, Helvetica, sans-serif;
+
+.wrapper {
+    width: 100%;
+    // box-sizing: border-box;
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    color: #ffffff;
+    min-height: 100vh;
+    font-family: $Merri;
+}
+
+.container {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0 40px;
+	width: 100%;
+}
+
+
+@import "header.scss";
+
+@import "main.scss";
